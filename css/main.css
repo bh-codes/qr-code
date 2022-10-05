@@ -96,11 +96,12 @@ textarea {
 
 .card-container {
   border-radius: 20px;
-  width: 340px;
+  max-width: 340px;
   background-color: hsl(0, 0%, 100%);
   display: block;
   align-items: center;
   justify-content: center;
+  padding: 15px;
 }
 
 .container {
@@ -114,16 +115,15 @@ body {
   min-height: 100vh;
 }
 
-picture img {
-  width: 300px;
+img {
+  width: 100%;
   border-radius: 15px;
-  margin: 20px;
 }
 
 h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  padding: 0 20px;
+  padding: 0 10px;
   text-align: center;
   font-size: 1.65em;
 }
@@ -132,9 +132,11 @@ p {
   margin: 10px 30px 30px 30px;
   text-align: center;
   color: hsl(220, 15%, 55%);
-  padding-bottom: 40px;
 }
 
+footer {
+  padding-top: 20px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
